@@ -1,0 +1,9 @@
+requests
+bs4 import BeautifulSoup
+from urllib.request import urlopen as ureq
+import logging 
+import pymongo
+import os 
+from flask import Flask,jsonify,render_template,request
+from flask_cors import CORS,cross_origin
+import logging 

@@ -55,7 +55,7 @@ def index():
             return 'image loaded'
         except Exception as e:
             logging.info(e)
-            return 'images saved!!'
+            return render_template("result.html")
     else:
         return render_template('index.html')
 
